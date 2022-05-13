@@ -1,5 +1,14 @@
 <html>
   <title>OneLink Setup</title>
-  <b>hi</b>
-  <script>window.open('acmanager://install?url=https%3A%2F%2Fdrive.google.com%2Fu%2F0%2Fuc%3Fid%3D11gfTg_nYmDeG20Q9n7e19RKiR8_8eUL0%26export%3Ddownload');</script>
+  <b>sr810's AC Server Downloader</b>
+  <button id="button">Download Cars and Track</button>
+  <script>
+    // defo didnt cut and paste wdym
+    const googleBtn = document.getElementById("button");
+
+    // add click event handler to button
+    googleBtn.addEventListener("click", () => {
+       window.open("acmanager://install?url=https%3A%2F%2Fwww.racedepartment.com%2Fdownloads%2Fmaserati-tipo-61-birdcage.28161%2F");
+    });
+  </script>
 </html>
